@@ -1,7 +1,7 @@
 from autocorrect import Speller
 from language_tool_python import LanguageTool
 import requests
-
+@st.cache
 # Function to check spelling and grammar in the provided text
 def check_spelling_grammar(text):
     spell = Speller()  # Initialize the spell checker from the autocorrect library
