@@ -41,7 +41,7 @@ def check_spelling_grammar(text):
     corrected_text = tool.correct(corrected_sentence)  # Apply grammar corrections to the sentence
 
     return spelling_corrections, grammar_corrections, corrected_text  # Return all corrections and the corrected text
-
+@st.cache_data
 # Function to fetch definitions of words using an online dictionary API
 def get_definitions(word):
     response = requests.get(f"https://api.dictionaryapi.dev/api/v2/entries/en/{word}")
