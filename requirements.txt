@@ -1,5 +1,6 @@
 setuptools
-streamlit==1.24.1
+streamlit==1.28.1
+#streamlit==1.24.1
 autocorrect
 language_tool_python==2.8.0
 requests 
