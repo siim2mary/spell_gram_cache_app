@@ -12,7 +12,7 @@ import nltk
 nltk.download('wordnet')
 nltk.download('omw-1.4')  # Download the Open Multilingual Wordnet
 
-
+@st.cache
 # Function to check spelling and grammar in the provided text
 def check_spelling_grammar(text):
     spell = Speller()  # Initialize the spell checker
