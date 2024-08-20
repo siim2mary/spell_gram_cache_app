@@ -5,6 +5,7 @@ name = "pypi"
 
 [packages]
 streamlit = "==1.28.1"
+autocorrect = "*"
 
 [dev-packages]
 
